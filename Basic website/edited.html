@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<script>
+function Wikipedia(){
+document.location.href="https://en.wikipedia.org/wiki/Reine";
+}
+
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+<body>
+<div class="img">
+<img src="1.jpg" id="1" />
+<div class="top"><font class="h2">Reine, Norway</font></div>
+<div class="center">
+<button type="button" id="wiki" onClick="Wikipedia()">
+<b><h5 style="font-size: 18px;">&nbsp;&nbsp;Discover&nbsp;&nbsp;</h5></b>
+</button>
+</div>
+</div>
+
+<center>
+<p id="do" style="font-family:Berlin Sans FB Demi;"><b>Things To Do!!</b></p>
+<p id="exp"style="font-family:Eras Demi ITC;">Explore Reine..</p> 
+<table>
+<tr>
+<td><img src="5.jpg" id="table"/></td>
+<td>
+<center>
+<h2 style="font-family:Stencil;"><b>Reinefjorden</b></h2>
+<p>
+Reinefjorden is a fjord of the Vestfjord<br>
+in the municipality of Mosken in Nordland,<br>
+which extends almost <br>
+three kilometers in the eastern <br>
+direction from the inlet<br>
+between Hamnøya in the <br>
+northeast and Andøya, <br>
+north of Reine , in the southwest.
+</p>
+</center>
+</td>
+<td><img src="6.jpg" id="table"/></td>
+</tr>
+<tr>
+<td><center>
+<h2 style="font-family:Stencil;"><b>The Northern Lights</b></h2>
+<p>
+When the northern lights – Aurora Borealis<br> 
+are strong and bright, get ready<br>
+for the show of your life <br>
+as the lights dance across the sky<br>
+from horizon to horizon in display<br>
+of nature that I can only describe as<br>
+truly breathtaking.</p>
+</center>
+</td>
+<td><img src="7.png" id="table"/></td>
+<td>
+<center>
+<h2 style="font-family:Stencil;"><b>The Bunes Beach</b></h2>
+<p>
+Bunes beach is one of the most beautiful places on the islands.<br>
+It is inaccessible by car.<br>
+You will have to sail on the ferry and walk.<br>
+The trek is very easy.<br>
+What is there to see and specific points.<br>
+You will not leave the beach without<br>
+replenishing your collection with various pictures.<br>
+You can start shooting on the way to the beach.<br>
+Once in the pass, turn around and you will have <br>
+a view of the fjord and the village. </p>
+</center>
+</td>
+</tr>
+</table>
+</center>
+
+<p><font style="font-style:italic; font-size:28px; color:green; margin-left:150px; font-family:Berlin Sans FB Demi;">
+<b>Get Directions:</b></font></p>
+
+<div class="left">
+<div class="mapouter">
+<div class="gmap_canvas">
+<iframe width="1080" height="500" id="gmap_canvas" 
+	src="https://maps.google.com/maps?q=reine%20norway&t=&z=13&ie=UTF8&iwloc=&output=embed" 	
+	frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+	</iframe>
+	<a href="https://www.crocothemes.net">crocothemes.net</a>
+	</div>
+
+</div>
+</div>
+<br>
+<br>
+
+<center>
+<br><br>
+<p>We hope you would like to get updated of all such amazing stuff going to be presented by us soon! </p>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Get all Updates</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+		class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" method="post">
+    <div class="container">
+      <h1>Welcome!</h1>
+      <p>Please fill in this form to get connected...</p>
+      <hr>
+	  <label for="name"><b>Full Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required><br>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+			class="cancelbtn">Cancel</button>
+               <button type="button" onClick="myFunction()">Get Started!</button>
+	   <script>
+	   function myFunction()
+	   {
+	    alert("THANK YOU!");
+		}
+		</script>
+      </div>
+    </div>
+  </form>
+</div>
+
+</center>
+<br><br>
+<div id="2" class="footer"><a target="_blank" title="follow me on facebook" href="https://www.facebook.com/pages/Reine-Lofoten-Islands/644519322238498">
+<img alt="follow me on facebook" src="facebook.jpg" border=0 id="logo" 
+style="width:50px;height:50px;" >&nbsp &nbsp
+</a>
+<a target="_blank" title="follow me on instagram" href="https://www.instagram.com/explore/locations/589554106/reine-telemark-norway/?hl=en">
+<img alt="follow me on facebook" src="instagram.png" border=0 id="logo"
+style="width:50px;height:50px;">&nbsp &nbsp
+</a>
+<a target="_blank" title="follow me on facebook" href="https://www.google.co.in/flights?lite=0#flt=AMD.LKN.2018-12-08*LKN.AMD.2018-12-12;c:INR;e:1;sd:1;t:f">
+<img src="fli.png" border=0 id="logo"
+style="width:50px;height:50px;" >
+</a></div>
+
+</body>
+</html>
